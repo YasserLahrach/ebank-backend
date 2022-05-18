@@ -13,6 +13,7 @@ public class Customer {
     private Long id;
     private String name;
     private String email;
+    private String jj;
     @OneToMany(mappedBy = "customer")
     private List<BankAccount> bankAccountList;
 }
